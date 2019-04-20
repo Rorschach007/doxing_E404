@@ -61,10 +61,12 @@ def menu():
 	 {3}4.{1} {2} Colombia						
 	 {3}5.{1} {2} Ecuador						
 	 {3}6.{1} {2} Mexico						
-	 {3}7.{1} {2} Peru						
-	 {3}8.{1} {2} Venezuela						
-	 {3}9.{1} {2} Facebook Error404						
-	 {3}10.{1}{2} Salir						
+	 {3}7.{1} {2} Peru								
+	 {3}8.{1} {2} Facebook Error404	
+         {3}9.{1} {2} Youtube Error404
+         {3}10.{1}{2} Twitter Error404
+         {3}11.{1}{2} Instagram Error404					
+	 {3}12.{1}{2} Salir						
 				'''.format(GREEN, END, CYAN, RED)
 limpiar()
 menuc()
@@ -72,22 +74,26 @@ menu()
 d = raw_input("\033[1;30m DOXING ERROR404 > ")
 
 if d == "1":
-	Argentina()
+	execfile("paises/AR.py")
 elif d == "2":
-	Bolivia()
+	execfile("paises/BO.py")
 elif d == "3":
-	Chile()
+	execfile("paises/CH.py")
 elif d == "4":
 	execfile("paises/CO.py")
 elif d == "5":
 	execfile("paises/EC.py")
 elif d == "6":
-	Mexico()
+	execfile("paises/ME.py")
 elif d == "7":
-	Peru()
+	execfile("paises/PE.py")	
 elif d == "8":
-	Venezuela	
+	webbrowser.open('https://www.facebook.com/error4o4.org')
 elif d == "9":
-	webbrowser.open (' https://www.facebook.com/error4o4.org/') 
+	webbrowser.open('https://www.youtube.com/channel/UC9ZtujTcMuBcKsV4-4G9Zxg')  
 elif d == "10":
+	webbrowser.open('https://twitter.com/Error404origen')
+elif d == "11":
+	webbrowser.open('https://www.instagram.com/error404origen/?hl=de ')  
+elif d == "12":
 	sys.exit()
