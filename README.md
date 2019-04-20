@@ -1,9 +1,7 @@
 <h1 align="center">DoxingE404</h1>
 <p align="center">
-  Esta herramineta ayudara a obtener informacion de forma sencilla.
-</p>
 <a href="https://imgflip.com/gif/2wjzef"><img src="https://i.imgflip.com/2wjzef.gif" title="made at imgflip.com"/></a>
-
+</p>
 
 ---------------------------------------------------------------------------------------------
 ********************************************************************************************
