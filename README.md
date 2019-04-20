@@ -1,6 +1,6 @@
 <h1 align="center">DoxingE404</h1>
 <p align="center">
-<a href="https://imgflip.com/gif/2wjzef"><img src="https://i.imgflip.com/2wjzef.gif" title="made at imgflip.com"  width="200"/></a>
+<a href="https://imgflip.com/gif/2wjzef"><img src="https://i.imgflip.com/2wjzef.gif" title="made at imgflip.com"  width="800"/></a>
 </p>
 
 #### TESTEADO
